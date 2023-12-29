@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('ArticaPro.eot');
+    src: local('☞ArticaPro'), local('ArticaPro'),
+        url('ArticaPro.eot?#iefix') format('embedded-opentype'),
+        url('ArticaPro.woff2') format('woff2'),
+        url('ArticaPro.woff') format('woff'),
+        url('ArticaPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('ArticaPro-Medium.eot');
+    src: local('☞ArticaPro-Medium'), local('ArticaPro-Medium'),
+        url('ArticaPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ArticaPro-Medium.woff2') format('woff2'),
+        url('ArticaPro-Medium.woff') format('woff'),
+        url('ArticaPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('ArticaPro-Black.eot');
+    src: local('☞ArticaPro-Black'), local('ArticaPro-Black'),
+        url('ArticaPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('ArticaPro-Black.woff2') format('woff2'),
+        url('ArticaPro-Black.woff') format('woff'),
+        url('ArticaPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('ArticaPro-Light.eot');
+    src: local('☞ArticaPro-Light'), local('ArticaPro-Light'),
+        url('ArticaPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('ArticaPro-Light.woff2') format('woff2'),
+        url('ArticaPro-Light.woff') format('woff'),
+        url('ArticaPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('ArticaPro-Bold.eot');
+    src: local('☞ArticaPro-Bold'), local('ArticaPro-Bold'),
+        url('ArticaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ArticaPro-Bold.woff2') format('woff2'),
+        url('ArticaPro-Bold.woff') format('woff'),
+        url('ArticaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
