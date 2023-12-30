@@ -172,3 +172,48 @@ body{
 #container2 .clg{
     padding-top: 50px;
 }
+
+#container3{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-family: 'articapro', sans-serif;
+}
+
+#skill li{
+    font-family: 'articapro-l', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#container4{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-family: 'articapro', sans-serif;
+}
+.certificate{
+    max-width: 640px;
+}
+
+.certificate li{
+        font-family: 'articapro-l', sans-serif;
+        font-weight: bold;
+        margin-top: 10px;
+}
+
+.certificate ul li a{
+    text-decoration: none;
+    color: white;
+}
+.certificate ul li a:hover{
+    color: red;
+}
+
+#container4 .two{
+    padding-top: 65px;
+}
