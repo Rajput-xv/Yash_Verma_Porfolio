@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+.content{
+    opacity: 0;
+    transform: scale(0.5);        
+    transition: opacity 0.5s ease, transform 1s ease;
+      
+}
+.content.show {
+    opacity: 1;
+    transform: scale(1);      
+}
+
 @font-face {
     font-family: 'articapro';
     src: url('./font/ArticaPro-Bold.woff2') format('woff2');
@@ -16,6 +27,8 @@ body{
     background: url(./image/bg1.jpg)  ; /*no-repeat*/
     background-size: auto;
     background-position: center;
+    margin: 0;
+    overflow: hidden;
 }
 
 
@@ -73,7 +86,7 @@ body{
 
 #pic:hover .hover-img {
     display: block;
-  }
+}
 .hover-img{
     display: none;
     position: absolute;
@@ -82,7 +95,7 @@ body{
 }
 
 #pic img {
-    transition: opacity 0.5s ease-out;
+    transition: opacity 0.2s ease-out;
   }
 #pic:hover .original-img {
     opacity: 0;
@@ -130,8 +143,12 @@ body{
     font-family: 'articapro-l', sans-serif;
     font-weight: bold;
 }
+#contact h2{
+    font-family: 'Times new roman', sans-serif;
+}
 #contact h3{
     padding: 10px;
+    padding-bottom: 0;
 }
 #contact h3 a{
     text-decoration: none;
@@ -193,7 +210,7 @@ body{
     justify-content: space-evenly;
     color: white;
     margin-top: 20px;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: 'articapro', sans-serif;
 }
 .certificate{
@@ -216,4 +233,47 @@ body{
 
 #container4 .two{
     padding-top: 65px;
+}
+
+
+#container5{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    color: white;
+    margin-left: 50px;
+}
+
+.project{
+    margin-top: 20px;
+}
+.project h2{
+    font-family: 'articapro', sans-serif;
+}
+.project h3{
+    font-family: 'articapro-l', sans-serif;
+    font-weight: bold;
+}
+.project a{
+    text-decoration: none;
+    color: white;
+}
+.project a:hover{
+    color: red;
+}
+.project ul{
+    margin-left: 20px;
+}
+
+#more{
+    align-self: flex-end;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+#more h4 a{
+    text-decoration: none;
+    color: white;
+}
+#more h4 a:hover{
+    color: red;
 }
