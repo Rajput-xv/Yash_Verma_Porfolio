@@ -244,8 +244,11 @@ body{
     margin-left: 50px;
 }
 
+#p2{
+    margin-top: 5px;
+}
 .project{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .project h2{
     font-family: 'articapro', sans-serif;
@@ -268,7 +271,7 @@ body{
 #more{
     align-self: flex-end;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 #more h4 a{
     text-decoration: none;
